@@ -38,10 +38,10 @@ layers:
   - LEFT COMMAND
   - LEFT ALT
   - TAB
-  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: BACKSPACE, h: LEFT CONTROL}
   - {t: SPACE, h: NUM}
   - {t: LANGUAGE 2, h: ARROW}
-  - RIGHT COMMAND
+  - RETURN
   - {t: LANGUAGE 1, h: FN}
   - INT1
   NUM:
