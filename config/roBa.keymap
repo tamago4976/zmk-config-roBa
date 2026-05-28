@@ -16,16 +16,7 @@
 &kp Q          &kp W         &kp E         &kp R          &kp T                                           &kp Y          &kp U         &kp I          &kp O         &kp P
 &mt LGUI A     &mt LALT S    &mt LCTRL D   &mt LSHIFT F   &kp G        &kp LS(LG(S))         &kp JP_MINUS  &kp H          &mt RSHIFT J  &mt RCTRL K   &mt RALT L    &mt RGUI JP_SEMI
 &kp Z          &kp X         &kp C         &kp V          &kp B        &kp ENTER             &kp BSPC      &kp N          &kp M         &kp JP_COMMA  &kp JP_DOT    &kp JP_SLASH
-&kp LEFT_GUI   &kp LEFT_ALT  &kp LEFT_CONTROL  &kp TAB      &lt 1 SPACE   &lt 2 ENTER             &mo 3         &kp RIGHT_ALT                                  &kp DEL
-            >;
-        };
-
-        NAV {
-            bindings = <
-&kp ESC    &trans          &kp UP_ARROW    &trans           &trans                       &trans             &kp HOME       &kp UP_ARROW    &kp END         &kp PG_UP
-&trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp PG_DN
-&trans     &trans          &trans          &trans           &trans  &trans      &trans  &kp C_PREV        &kp C_PP        &kp C_NEXT      &trans           &trans
-&trans     &trans          &trans          &trans           &trans  &trans      &trans  &trans                                          &trans
+&kp LEFT_GUI   &kp LEFT_ALT  &kp LEFT_CONTROL  &kp TAB      &kp SPACE    &lt 1 ENTER             &mo 2         &kp RIGHT_ALT                                  &kp DEL
             >;
         };
 
