@@ -40,9 +40,9 @@ layers:
   - TAB
   - {t: ESCAPE, h: LEFT CONTROL}
   - {t: SPACE, h: NUM}
-  - {t: 英数, h: ARROW}
+  - {t: LANGUAGE 2, h: ARROW}
   - RIGHT COMMAND
-  - {t: かな, h: FN}
+  - {t: LANGUAGE 1, h: FN}
   - INT1
   NUM:
   - '-'
@@ -80,7 +80,7 @@ layers:
   - Sft+#
   - INT1
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
