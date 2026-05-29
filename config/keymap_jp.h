@@ -21,8 +21,8 @@
 #define JP_PRCNT LS(N5)       // %
 #define JP_AMPS  LS(N6)       // &
 #define JP_SQT   LS(N7)       // '
-#define JP_LPAR  LS(N8)       // (
-#define JP_RPAR  LS(N9)       // )
+#define JP_LPAR  LPAR         // (  … US配列では LS(N8/N9) と符号がずれるため専用キーを使用
+#define JP_RPAR  RPAR         // )
 #define JP_EQUAL LS(JP_MINUS) // =
 #define JP_TILDE LS(JP_CARET) // ~
 #define JP_PIPE  LS(JP_YEN)   // |
