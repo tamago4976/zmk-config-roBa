@@ -41,6 +41,11 @@
             key-positions = <24 25>;
         };
 
+        close_paren {
+            bindings = <&kp JP_RPAR>;
+            key-positions = <8 9>;
+        };
+
         rigtht_click {
             bindings = <&mkp RCLK>;
             key-positions = <19 20>;
