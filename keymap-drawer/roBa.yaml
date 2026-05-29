@@ -41,7 +41,7 @@ layers:
   - {t: BACKSPACE, h: LEFT CONTROL}
   - {t: SPACE, h: NUM}
   - {t: LANGUAGE 2, h: ARROW}
-  - RETURN
+  - {t: RETURN, h: RIGHT COMMAND}
   - {t: LANGUAGE 1, h: FN}
   - INT1
   NUM:
