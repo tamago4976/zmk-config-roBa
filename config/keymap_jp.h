@@ -11,7 +11,7 @@
 #define JP_COMMA COMMA        // ,
 #define JP_DOT   DOT          // .
 #define JP_SLASH SLASH        // /
-#define JP_BSLH  BSLH         // \  … INT1 は US で効かないため専用キーを使用
+#define JP_BSLH  NUBS         // \  … macOS 日本語配列では BSLH が ¥ になるため NON_US を使用
 #define JP_MHEN  INT5         // Muhenkan (無変換)
 #define JP_HENK  INT4         // Henkan (変換)
 #define JP_EXCL  LS(N1)       // !
