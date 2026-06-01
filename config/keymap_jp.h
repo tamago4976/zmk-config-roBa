@@ -3,7 +3,7 @@
 #define JP_MINUS MINUS        // -
 #define JP_CARET EQUAL        // ^
 #define JP_YEN   INT3         // ¥
-#define JP_AT    LBKT         // @
+#define JP_AT    AT_SIGN      // @  … US配列では LBKT が [ になるため専用キーを使用
 #define JP_LBKT  RBKT         // [
 #define JP_SEMI  SEMI         // ;
 #define JP_COLON SQT          // :
