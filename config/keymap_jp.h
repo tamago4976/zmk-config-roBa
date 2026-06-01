@@ -11,7 +11,7 @@
 #define JP_COMMA COMMA        // ,
 #define JP_DOT   DOT          // .
 #define JP_SLASH SLASH        // /
-#define JP_BSLH  INT1         // (backslash)
+#define JP_BSLH  BSLH         // \  … INT1 は US で効かないため専用キーを使用
 #define JP_MHEN  INT5         // Muhenkan (無変換)
 #define JP_HENK  INT4         // Henkan (変換)
 #define JP_EXCL  LS(N1)       // !
@@ -34,4 +34,4 @@
 #define JP_LT    LS(JP_COMMA) // <
 #define JP_RT    LS(JP_DOT)   // >
 #define JP_QMARK LS(JP_SLASH) // ?
-#define JP_UNDER LS(JP_BSLH)  // _
+#define JP_UNDER UNDER        // _  … LS(JP_BSLH) だと US で | になるため専用キーを使用
