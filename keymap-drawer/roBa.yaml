@@ -137,7 +137,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+`
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - {t: ▽, type: trans}
