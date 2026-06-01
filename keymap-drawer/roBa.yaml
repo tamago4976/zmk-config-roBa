@@ -63,7 +63,7 @@ layers:
   - Ctl+Alt+KP 0
   - Sft+INT1
   - Sft+1
-  - '['
+  - '@'
   - Sft+3
   - Sft+4
   - Sft+5
@@ -82,11 +82,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BACKSPACE, h: LEFT CONTROL}
+  - {t: SPACE, h: NUM, type: held}
+  - {t: LANGUAGE 2, h: ARROW}
+  - {t: RETURN, h: RIGHT COMMAND}
+  - {t: LANGUAGE 1, h: FN}
   - Sft+INT3
   FUNCTION:
   - {t: ▽, type: trans}
