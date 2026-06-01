@@ -11,7 +11,7 @@
 #define JP_COMMA COMMA        // ,
 #define JP_DOT   DOT          // .
 #define JP_SLASH SLASH        // /
-#define JP_BSLH  INT3         // ¥ … \ は roBa.keymap の jp_bslh マクロ（Option+¥）
+#define JP_BSLH  JP_YEN       // ¥（INT3）… 右下など
 #define JP_MHEN  INT5         // Muhenkan (無変換)
 #define JP_HENK  INT4         // Henkan (変換)
 #define JP_EXCL  LS(N1)       // !
