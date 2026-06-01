@@ -2,7 +2,7 @@
 #define JP_KANA  LANGUAGE_1   // かな
 #define JP_MINUS MINUS        // -
 #define JP_CARET EQUAL        // ^
-#define JP_YEN   INT3         // ¥
+#define JP_YEN   BSLH         // ¥ … macOS 日本語配列（INT3 は無反応になることがある）
 #define JP_AT    AT_SIGN      // @  … US配列では LBKT が [ になるため専用キーを使用
 #define JP_LBKT  LBKT         // [  … US 配列で位置がずれないよう専用キーを使用
 #define JP_SEMI  SEMI         // ;
@@ -25,7 +25,7 @@
 #define JP_RPAR  RPAR         // )
 #define JP_EQUAL LS(JP_MINUS) // =
 #define JP_TILDE TILDE         // ~  … LS(JP_CARET) だと US で + になるため専用キーを使用
-#define JP_PIPE  LS(JP_YEN)   // |  … roBa 派生 JIS 向け（LS(INT3)）
+#define JP_PIPE  PIPE         // | … LS(BSLH)
 #define JP_GRAVE GRAVE         // `
 #define JP_LBRC  LBRC         // {  … LS(JP_LBKT) だと US で } になるため専用キーを使用
 #define JP_PLUS  LS(JP_SEMI)  // +
