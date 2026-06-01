@@ -130,7 +130,7 @@
 
         FN {
             bindings = <
-&mo 4   &trans  &trans  &trans  &trans                      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans  &trans
+&mo 4   &trans  &trans  &trans  &kp LC(GRAVE)                 &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                &trans                &trans  &trans  &kp C_MUTE
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                &trans                &trans  &trans  &kp C_VOLUME_DOWN
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                      &kp C_VOLUME_UP
