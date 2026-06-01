@@ -24,9 +24,9 @@
 #define JP_LPAR  LPAR         // (  … US配列では LS(N8/N9) と符号がずれるため専用キーを使用
 #define JP_RPAR  RPAR         // )
 #define JP_EQUAL LS(JP_MINUS) // =
-#define JP_TILDE LS(JP_CARET) // ~
-#define JP_PIPE  LS(JP_YEN)   // |
-#define JP_GRAVE LS(JP_AT)    // `
+#define JP_TILDE TILDE         // ~  … LS(JP_CARET) だと US で + になるため専用キーを使用
+#define JP_PIPE  PIPE          // |  … LS(JP_YEN) は US で効かないため専用キーを使用
+#define JP_GRAVE GRAVE         // `
 #define JP_LBRC  LBRC         // {  … LS(JP_LBKT) だと US で } になるため専用キーを使用
 #define JP_PLUS  LS(JP_SEMI)  // +
 #define JP_ASTRK LS(JP_COLON) // *

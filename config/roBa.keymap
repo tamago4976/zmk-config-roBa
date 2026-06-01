@@ -114,7 +114,7 @@
             bindings = <
 &kp JP_MINUS                   &kp N7        &kp N8        &kp N9        &kp JP_PLUS                                                &kp JP_CARET         &kp JP_AMPS      &kp JP_TILDE       &kp JP_LPAR  &kp JP_RPAR
 &kp JP_SLASH                   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp JP_ASTRK  &kp LC(LA(KP_NUMBER_0))      &kp JP_UNDER  &kp JP_EXCL   &kp JP_AT        &kp JP_HASH        &kp JP_DLLR  &kp JP_PRCNT
-&mt LEFT_SHIFT KP_NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp JP_EQUAL                 &trans        &kp JP_LBKT   &kp JP_RBKT       &kp JP_LBRC        &kp JP_RBRC  &kp JP_BSLH
+&mt LEFT_SHIFT KP_NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp JP_EQUAL                 &kp JP_GRAVE  &kp JP_LBKT   &kp JP_RBKT       &kp JP_LBRC        &kp JP_RBRC  &kp JP_BSLH
 &trans                        &trans        &trans        &mt LEFT_CONTROL BACKSPACE  &lt_num 1 SPACE  &lt 5 JP_EISU            &mt RIGHT_COMMAND RETURN  &lt 3 JP_KANA                             &kp JP_PIPE
             >;
         };
