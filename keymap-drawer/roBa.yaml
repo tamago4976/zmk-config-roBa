@@ -43,7 +43,7 @@ layers:
   - {t: LANGUAGE 2, h: ARROW}
   - {t: RETURN, h: RIGHT COMMAND}
   - {t: LANGUAGE 1, h: FN}
-  - '&jp_bslh'
+  - INT3
   NUM:
   - '-'
   - '7'
@@ -78,7 +78,7 @@ layers:
   - ']'
   - '{'
   - '}'
-  - '&jp_bslh'
+  - INT3
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
