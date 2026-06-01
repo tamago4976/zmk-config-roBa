@@ -52,7 +52,7 @@ layers:
   - Sft+;
   - '='
   - Sft+6
-  - Sft+=
+  - '~'
   - (
   - )
   - /
@@ -73,7 +73,7 @@ layers:
   - '3'
   - .
   - Sft+-
-  - {t: ▽, type: trans}
+  - '`'
   - '['
   - ']'
   - '{'
@@ -87,7 +87,7 @@ layers:
   - {t: LANGUAGE 2, h: ARROW}
   - {t: RETURN, h: RIGHT COMMAND}
   - {t: LANGUAGE 1, h: FN}
-  - Sft+INT3
+  - '|'
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
