@@ -11,7 +11,7 @@
 #define JP_COMMA COMMA        // ,
 #define JP_DOT   DOT          // .
 #define JP_SLASH SLASH        // /
-#define JP_BSLH  LA(JP_YEN)   // \  … macOS 日本語配列は ¥ キー+Option。BSLH→¥、NUBS→§
+#define JP_BSLH  INT3         // ¥ … \ は roBa.keymap の jp_bslh マクロ（Option+¥）
 #define JP_MHEN  INT5         // Muhenkan (無変換)
 #define JP_HENK  INT4         // Henkan (変換)
 #define JP_EXCL  LS(N1)       // !
@@ -25,7 +25,7 @@
 #define JP_RPAR  RPAR         // )
 #define JP_EQUAL LS(JP_MINUS) // =
 #define JP_TILDE TILDE         // ~  … LS(JP_CARET) だと US で + になるため専用キーを使用
-#define JP_PIPE  PIPE          // |  … LS(JP_YEN) は US で効かないため専用キーを使用
+#define JP_PIPE  LS(JP_YEN)   // |  … roBa 派生 JIS 向け（LS(INT3)）
 #define JP_GRAVE GRAVE         // `
 #define JP_LBRC  LBRC         // {  … LS(JP_LBKT) だと US で } になるため専用キーを使用
 #define JP_PLUS  LS(JP_SEMI)  // +
