@@ -4,10 +4,10 @@
 #define JP_CARET EQUAL        // ^
 #define JP_YEN   INT3         // ¥
 #define JP_AT    AT_SIGN      // @  … US配列では LBKT が [ になるため専用キーを使用
-#define JP_LBKT  RBKT         // [
+#define JP_LBKT  LBKT         // [  … US 配列で位置がずれないよう専用キーを使用
 #define JP_SEMI  SEMI         // ;
 #define JP_COLON SQT          // :
-#define JP_RBKT  NUHS         // ]
+#define JP_RBKT  RBKT         // ]
 #define JP_COMMA COMMA        // ,
 #define JP_DOT   DOT          // .
 #define JP_SLASH SLASH        // /
@@ -27,10 +27,10 @@
 #define JP_TILDE LS(JP_CARET) // ~
 #define JP_PIPE  LS(JP_YEN)   // |
 #define JP_GRAVE LS(JP_AT)    // `
-#define JP_LBRC  LS(JP_LBKT)  // {
+#define JP_LBRC  LBRC         // {  … LS(JP_LBKT) だと US で } になるため専用キーを使用
 #define JP_PLUS  LS(JP_SEMI)  // +
 #define JP_ASTRK LS(JP_COLON) // *
-#define JP_RBRC  LS(JP_RBKT)  // }
+#define JP_RBRC  RBRC         // }
 #define JP_LT    LS(JP_COMMA) // <
 #define JP_RT    LS(JP_DOT)   // >
 #define JP_QMARK LS(JP_SLASH) // ?
