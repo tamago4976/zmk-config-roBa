@@ -43,7 +43,7 @@ layers:
   - {t: LANGUAGE 2, h: ARROW}
   - {t: RETURN, h: RIGHT COMMAND}
   - {t: LANGUAGE 1, h: FN}
-  - INT3
+  - \
   NUM:
   - '-'
   - '7'
@@ -78,7 +78,7 @@ layers:
   - ']'
   - '{'
   - '}'
-  - INT3
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,7 @@ layers:
   - {t: LANGUAGE 2, h: ARROW}
   - {t: RETURN, h: RIGHT COMMAND}
   - {t: LANGUAGE 1, h: FN}
-  - Sft+INT3
+  - '|'
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
